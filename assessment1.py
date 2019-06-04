@@ -19,7 +19,7 @@ def binarySearch(a,l,r,x):
         elif a[mid]>x:
            return binarySearch(a,l,mid-1,x)
 
-#if the element to be searched is larger than the middle element(search the left subpart)
+#if the element to be searched is larger than the middle element(search the right subpart)
         else:
            return binarySearch(a,mid+1,r,x)
 
